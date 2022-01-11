@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8" />
+
+<head>
+<style>
+
+.download-button {
+     background:#48bfe3;
+     color:#fff;
+     border:1pxsolid#eee;
+     border-radius:20px;
+     box-shadow:5px5px5px#eee;
+     text-shadow:none;
+     padding: 12px 24px;
+     text-decoration: none;
+}
+
+.download-button:hover {
+     background:#016ABC;
+     color:#fff;
+     border:1pxsolid#eee;
+     border-radius:20px;
+     box-shadow:5px5px5px#eee;
+     text-shadow:none;
+     padding: 12px 24px;
+     cursor: pointer;
+     text-decoration: none;
+}
+
+.form-submit-button {
+     background:#48bfe3;
+     color:#fff;
+     border:1pxsolid#eee;
+     border-radius:20px;
+     box-shadow:5px5px5px#eee;
+     text-shadow:none;
+     padding: 12px 24px;
+}
+
+.form-submit-button:hover {
+     background:#016ABC;
+     color:#fff;
+     border:1pxsolid#eee;
+     border-radius:20px;
+     box-shadow:5px5px5px#eee;
+     text-shadow:none;
+     padding: 12px 24px;
+     cursor: pointer;
+}
+
+.form-submit-button2 {
+     background:#48bfe3;
+     color:#fff;
+     border:1pxsolid#eee;
+     border-radius:20px;
+     box-shadow:5px5px5px#eee;
+     text-shadow:none;
+     padding: 12px 24px;
+     margin-left:30px;
+}
+
+.form-submit-button2:hover {
+     background:#016ABC;
+     color:#fff;
+     border:1pxsolid#eee;
+     border-radius:20px;
+     box-shadow:5px5px5px#eee;
+     text-shadow:none;
+     padding: 12px 24px;
+     cursor: pointer;
+     margin-left:30px;
+}
+
+.file-selection-button {
+     background:#48bfe3;
+     color:#fff;
+     border:1pxsolid#eee;
+     border-radius:20px;
+     box-shadow:5px5px5px#eee;
+     text-shadow:none;
+     padding: 12px 24px;
+     margin-right:30px;
+     margin-left:-50px;
+}
+
+.file-selection-button:hover {
+     background:#016ABC;
+     color:#fff;
+     border:1pxsolid#eee;
+     border-radius:20px;
+     box-shadow:5px5px5px#eee;
+     text-shadow:none;
+     padding: 12px 24px;
+     cursor: pointer;
+     margin-left:-50px;
+     margin-right:30px;
+}
+
+.buttons{
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.custom-file-upload {
+    border: 2px solid blue;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+input[type=number] {
+  width: 50%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+input[type=number]:focus {
+  border: 0px;
+  box-shadow: 0 0 12px #B9DFFF;
+}
+
+input[type=file]{
+  display: none;
+}
+
+input[type=submit]{
+  display: none;
+}
+
+select:focus {
+  border: 1px solid;
+}
+
+body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #e5e5e5;
+      text-align: center;
+      background-size: 400% 400%;
+      color: black;
+     }
+
+select {
+  text-align-last:center;
+  width: 50%;
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  padding: 12px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes gradient {
+ 0% {
+   background-position: 0% 50%;
+ }
+ 50% {
+   background-position: 100% 50%;
+ }
+ 100% {
+   background-position: 0% 50%;
+ }
+}
+
+#tabella1 {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#tabella1 td, #tabella1 th {
+  border: 2px solid #ddd;
+  padding: 8px;
+  margin: auto;
+  font-family: Georgia, serif;
+}
+
+#tabella1 th {
+  width: 20%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size:22px;
+}
+
+#tabella1 td {
+  font-size:17px;
+}
+
+</style>
+</head>
+
+<body>
+	    <style>
+        .box{
+        background-color: transparent;
+        border-style: none!important;
+        color: ;
+        font-weight: bold;
+        margin: 40px auto;
+        height: 90px;
+        width: 500px;
+        border-style: solid;
+        }
+	    </style>
+		<div class="box">
+		    <h1 style="color: black; position: absolute; font-family: Arial, Helvetica, sans-serif; font-size: 40px; style=text-align: center; margin-left:30px;">STIMA ETÀ BIOLOGICA</h1>
+		</div>
+    <p style="color: black; font-family: monospace; font-size: 12px; text-align: center; margin-bottom: 30px">Metterei una breve introduzione QUI</p>
+    <p style="color: black; font-family: monospace; font-size: 20px; text-align: center; margin-bottom: 40px">Caricamento manuale dei dati del paziente </p>
+</body>
+
+<body>
+  <form action="" method="post" class="form" role="form">
+
+    <input id="csrf_token" name="csrf_token" type="hidden" value="ImMzNTEwYWIyNzU0MTFlNmEyYTE3YjBjYmMyMDkwMTQ2OWE2NjZmZjAi.YUDSdA.9hroC7ULSOmwfsboAZcBFmyBXgc">
+    <table id="tabella1">
+      <tr>
+        <th>Attributo</th>
+        <th>Valore</th>
+        <th>Unità</th>
+      </tr>
+      <tbody>
+
+        <tr>
+          <td>Genere</td>
+          <td>
+            <select id="sesso" name="sesso" required style="background-color:white">
+               <option selected="selected"></option>
+               <option value="M">M</option>
+               <option value="F">F</option>
+            </select>
+          </td>
+          <td>M/F</td>
+        </tr>
+
+        <tr>
+          <td>Età</td>
+          <td><input id="eta" name="eta" type="number" value="" min="1" max="120" required></td>
+            <td>Anni</td>
+        </tr>
+
+        <tr>
+          <td>Peso</td>
+          <td><input id="peso" name="peso" type="number" value="" min="1" max="350" step="0.01" required></td>
+          <td>Kg</td>
+        </tr>
+
+        <tr>
+          <td>Altezza</td>
+          <td><input id="altezza" name="altezza" type="number" value="" min="1" max="300" step="0.01" required></td>
+          <td>Cm</td>
+
+        </tr>
+
+        <tr>
+          <td>BMI (Indice di Massa Corporea)</td>
+          <td><input id="bmi" name="bmi" type="number" value="" step="0.01" placeholder="Peso / (Altezza)^2"</td>
+          <td>kg/m^2</td>
+        </tr>
+
+        <tr>
+          <td>RQ (Quoziente Respiratorio)</td>
+          <td><input id="rq" name="rq" type="number" value="" placeholder="0.7 ~ 1.0" step="0.01"></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Reep</td>
+          <td><input id="reep" name="reep" type="number" value="" step="0.01"></td>
+          <td>Kcal/die</td>
+        </tr>
+
+        <tr>
+          <td>REEm</td>
+          <td><input id="reem" name="reem" type="number" value="" step="0.01"></td>
+          <td>Kcal/die</td>
+        </tr>
+
+        <tr>
+          <td>REE (Dispendio Energetico a Riposo)</td>
+          <td><input id="ree" name="ree" type="number" value="" step="0.01"></td>
+          <td>% Predetto</td>
+        </tr>
+
+      </tbody>
+    </table>
+    <div class="buttons" style="text-align:center">
+        <label for="submit" class="form-submit-button">
+            Invia
+        </label>
+        <input id="submit" name="submit_b" type="submit" value="Submit">
+    </div>
+  </form>
+</body>
+
+<hr style="margin-left: 100px; margin-right: 100px; margin-bottom: 40px">
+<p style="color: black; font-family: monospace; font-size: 20px; text-align: center">Caricamento dei dati dei pazienti (formato .xls o .xlsx)</p>
+<p style="color: black; font-family: monospace; font-size: 12px; text-align: center; margin-bottom: 20px">Attenzione: il file deve contenere le seguenti colonne: ID, DATA VISITA, SESSO, ETA', PESO (Kg), ALTEZZA (cm), BMI, RQ, REEp (Kcal/die), REEm (Kcal/die), REE (%predetto)</p>
+
+<form class="" action="" method="post" enctype="multipart/form-data" style="display:inline-flex">
+  <div class="buttons">
+      <input id="inp" type="file" name="csvfile" value="Browse" accept=".xls,.xlsx" required >
+      <label for="inp" class="file-selection-button">
+        Seleziona File
+      </label>
+
+      <span>
+          <strong>File Selezionato:</strong>
+          <span id="file-name">Nessuno</span>
+      </span>
+
+
+      <script>
+            let inputFile = document.getElementById('inp');
+            let fileNameField = document.getElementById('file-name');
+            inputFile.addEventListener('change', function(event){
+              let uploadedFileName = event.target.files[0].name;
+              fileNameField.textContent = uploadedFileName;
+            })
+      </script>
+
+      <label for="inp2" class="form-submit-button2">
+        Invia
+      </label>
+      <input id="inp2" type="submit" name="submit_a" value="Submit" onclick = "GFG_Fun()">
+      <p id = "GFG_DOWN" style ="color:red; font-size: 12px; font-weight: bold;">
+      </p>
+
+      <script>
+        var down = document.getElementById('GFG_DOWN');
+        var file = document.getElementById("inp");
+
+        function GFG_Fun() {
+            if(file.files.length == 0 ){
+                down.innerHTML = " ! Nessun File Selezionato";
+            } else {
+                down.innerHTML = "";
+            }
+        }
+      </script>
+
+  </div>
+</form>
+
+<p style="color: black; font-family: monospace; font-size: 20px; text-align: center; margin-bottom:40px">Qui puoi scaricare il file excel esempio da compilare:</p>
+<a href="https://www.pythonanywhere.com/user/lorenzofamiglini/files/home/lorenzofamiglini/mysite/templates/age_reader_Base.xlsx"  class="download-button" download>Download .xlsx</a>
+<p style="margin-top: 100px"></p>
+
+
+</html>
