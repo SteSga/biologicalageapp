@@ -1,12 +1,11 @@
 {
-  "name": "biologicalageapp",
+  "name": "my-static-site",
   "version": "1.0.0",
-  "description": "Project Description",
+  "description": "This will load any static html site",
   "scripts": {
-    "start": "serve",
+    "start": "harp server --port $PORT"
   },
   "dependencies": {
-    "serve": "^10.0.1"
-  },
-  "author": "Pulkit Aggarwal"
+    "harp": "*"
+  }
 }
