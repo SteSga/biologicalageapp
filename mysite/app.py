@@ -77,7 +77,7 @@ def index():
 if __name__ == '__main__':
     app.run(debug = False)
     
-if name == "main":
+if name == "app":
     serve(app, listen='*:8080')
 
 
