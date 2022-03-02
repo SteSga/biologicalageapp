@@ -74,10 +74,10 @@ def index():
 
     return render_template('index.html', form=form)
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run(debug = False)
     
-if __name__ == "__app__":
+if __name__ == "__main__":
     serve(app, listen='*:8080')
 
 
